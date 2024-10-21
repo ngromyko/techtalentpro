@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTalent Pro - Professional IT Recruiting</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+<body class="font-sans">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white bg-opacity-90 shadow-md z-50">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-blue-600">TechTalent Pro</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="text-gray-700 hover:text-blue-600">About</a>
+                    <a href="#services" class="text-gray-700 hover:text-blue-600">Services</a>
+                    <a href="#why-us" class="text-gray-700 hover:text-blue-600">Why Us</a>
+                    <a href="#contact" class="text-gray-700 hover:text-blue-600">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="pt-28 pb-20 bg-gradient-to-r from-blue-500 to-blue-700">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 text-white" data-aos="fade-right">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6">
+                        Finding Top IT Talent for Your Success
+                    </h1>
+                    <p class="text-xl mb-8">
+                        Professional IT recruitment with quality guarantee
+                    </p>
+                    <button class="bg-white text-blue-600 px-8 py-3 rounded-full font-bold hover:bg-blue-50 transition duration-300">
+                        Start Collaboration
+                    </button>
+                </div>
+                <div class="md:w-1/2 mt-10 md:mt-0" data-aos="fade-left">
+                    <!-- Embed our SVG here -->
+                    <svg viewBox="0 0 800 600" class="w-full h-auto">
+                        <circle cx="400" cy="300" r="250" fill="#f0f9ff" />
+                        <circle cx="400" cy="300" r="200" fill="#e0f2fe" />
+                        <rect x="300" y="250" width="200" height="140" rx="10" fill="#3b82f6" />
+                        <rect x="290" y="380" width="220" height="20" rx="5" fill="#1d4ed8" />
+                        <text x="320" y="300" fill="white" font-family="monospace" font-size="14">
+                            <tspan x="320" y="300">&lt;code&gt;</tspan>
+                            <tspan x="320" y="320">{data}</tspan>
+                            <tspan x="320" y="340">&lt;/code&gt;</tspan>
+                        </text>
+                        <circle cx="200" cy="200" r="20" fill="#60a5fa"/>
+                        <circle cx="600" cy="200" r="20" fill="#60a5fa"/>
+                        <circle cx="400" cy="150" r="20" fill="#60a5fa"/>
+                        <line x1="200" y1="200" x2="400" y2="150" stroke="#93c5fd" stroke-width="3"/>
+                        <line x1="400" y1="150" x2="600" y2="200" stroke="#93c5fd" stroke-width="3"/>
+                        <line x1="200" y1="200" x2="600" y2="200" stroke="#93c5fd" stroke-width="3"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">About Our Company</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center" data-aos="fade-up">
+                    <div class="text-4xl text-blue-600 mb-4">5+</div>
+                    <p class="text-gray-600">Years in IT Recruiting</p>
+                </div>
+                <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-4xl text-blue-600 mb-4">1000+</div>
+                    <p class="text-gray-600">Successful Placements</p>
+                </div>
+                <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-4xl text-blue-600 mb-4">98%</div>
+                    <p class="text-gray-600">Satisfied Clients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-up">
+                    <h3 class="text-xl font-bold mb-4">IT Recruitment</h3>
+                    <p class="text-gray-600">Sourcing developers, DevOps engineers, QA specialists, and other IT professionals</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="text-xl font-bold mb-4">Staff Augmentation</h3>
+                    <p class="text-gray-600">Providing IT specialists for your team on any term</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-xl font-bold mb-4">HR Consulting</h3>
+                    <p class="text-gray-600">Help with HR processes and IT team building</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us -->
+    <section id="why-us" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Why Choose Us</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="flex items-start space-x-4" data-aos="fade-right">
+                    <div class="bg-blue-100 p-3 rounded-full">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">Deep IT Understanding</h3>
+                        <p class="text-gray-600">Our recruiters have technical background and speak the same language as developers</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4" data-aos="fade-left">
+                    <div class="bg-blue-100 p-3 rounded-full">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">Fast Recruitment</h3>
+                        <p class="text-gray-600">Average time to fill a position is 2-3 weeks</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 bg-blue-600">
+        <div class="container mx-auto px-6">
+            <div class="bg-white rounded-lg shadow-xl p-8 max-w-2xl mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-8">Contact Us</h2>
+                <form class="space-y-6">
+                    <div>
+                        <label class="block text-gray-700 mb-2">Your Name</label>
+                        <input type="text" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 mb-2">Email</label>
+                        <input type="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 mb-2">Message</label>
+                        <textarea class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500" rows="4"></textarea>
+                    </div>
+                    <button class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition duration-300">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="text-2xl font-bold mb-4 md:mb-0">TechTalent Pro</div>
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:text-blue-400">Twitter</a>
+                    <a href="#" class="hover:text-blue-400">LinkedIn</a>
+                    <a href="#" class="hover:text-blue-400">Facebook</a>
+                </div>
+            </div>
+            <div class="mt-4 text-center text-gray-400">
+                © 2024 TechTalent Pro. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>
