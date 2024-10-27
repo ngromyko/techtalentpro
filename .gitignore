@@ -114,3 +114,10 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+/.vs/slnx.sqlite
+/.vs/techtalentpro/config/applicationhost.config
+/.vs/techtalentpro/FileContentIndex/380011cb-a6e5-40e3-9094-113388967c29.vsidx
+/.vs/techtalentpro/v17
+/.vs/techtalentpro/v17/.wsuo
+/.vs/techtalentpro/v17/DocumentLayout.json
+/.vs/VSWorkspaceState.json
