@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "whyUs": "Why Us",
+    "careers": "Careers",
+    "contact": "Contact"
+  },
+  "promo": {
+    "providingTopItTalent": "Providing Top IT Talent for Your Success",
+    "professionalItRecruitment": "Professional IT recruitment solutions with quality guarantee",
+    "startCollaboration": "Start Collaboration"
+  },
+  "about": {
+    "aboutOurCompany": "About Our Company",
+    "yearsInIt": "Years in IT Industry",
+    "fullTimeProfessionals": "Full-time Professionals",
+    "staffTurnoverRate": "Staff turnover rate"
+  },
+  "services": {
+    "ourServices": "Our Services",
+    "staffAugmentation": "Staff Augmentation",
+    "providingItSpecialists": "Providing IT specialists for you Company on any term",
+    "itRecruitment": "IT Recruitment",
+    "sourcingDevelopers": "Sourcing Developers, UX/UI designers, DevOps engineers, QA specialists, and other IT professionals",
+    "hrConsulting": "HR Consulting",
+    "helpWithHr": "Help with HR processes and IT team building"
+  },
+  "whyUs": {
+    "whyChooseDoIT": "Why Choose DoIT Solution",
+    "deepItUnderstandingAndComplexApproach": "Deep IT Understanding and Complex approach",
+    "doITSolutionOffers": "DoIT Solution offers an \"Extended Team\" model for team augmentation, supplying specialists based on client needs within an average of 2-4 weeks. We maintain a talent pool where 10% of experts are available immediately, with additional resources accessible on short notice. The process involves two parts: finding the right candidate by assessing technical and cultural fit, and integrating them smoothly into the project. Candidate search starts with client requirements, where managers analyze and create a candidate profile, ensuring alignment with project interests and requirements. In the integration phase, specialists undergo onboarding, project introduction, and a 2-4 week trial period to confirm performance suitability. Performance is maintained through a structured support framework involving project coordinators, technical experts, resource managers, and delivery managers. This ensures seamless integration, proactive risk mitigation, and sustained high performance aligned with client goals.",
+    "benefitsOfItStaffAugmentation": "Benefits of IT staff augmentation",
+    "softwareStaffAugmentationInvolvesIntegrating": "Software staff augmentation involves integrating additional talent into your current teams. This eliminates the burden of sourcing, recruiting, training, and retaining. Cost-effective solutions DoIT Solution will reduce the hefty expenses associated with hiring processes, managing payroll, and overseeing the project. Zero recruitment risk Through IT staff augmentation services, you will completely relieve yourself of the recruitment burden and associated costs, allowing you to easily scale teams up and down as your needs change. Fast access to skills Once you have submitted your requirements, you'll receive the first candidates' CVs for technical team augmentation within 24 hours. Full control If you already have strong internal management, you can retain full control over the project with resource and staff augmentation."
+  },
+  "contact": {
+    "contactUs": "Contact Us",
+    "yourName": "Your Name",
+    "message": "Message"
+  }
+}
