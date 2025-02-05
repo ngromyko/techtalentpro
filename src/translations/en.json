@@ -36,6 +36,7 @@
   "contact": {
     "contactUs": "Contact Us",
     "yourName": "Your Name",
-    "message": "Message"
+    "message": "Message",
+    "sendMessage": "Send Message"
   }
 }

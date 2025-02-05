@@ -36,6 +36,7 @@
   "contact": {
     "contactUs": "Свяжитесь с нами",
     "yourName": "Ваше имя",
-    "message": "Сообщение"
+    "message": "Сообщение",
+    "sendMessage": "Отправить Сообщение"
   }
 }
