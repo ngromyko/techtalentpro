@@ -2,28 +2,8 @@ import { useTranslation } from "react-i18next";
 import Section from "./common/Section";
 import Container from "./common/Container";
 import SectionHeader from "./common/SectionHeader";
-import {
-  FaChartLine,
-  FaShippingFast,
-  FaShoppingCart,
-  FaHeartbeat,
-  FaCar,
-  FaStore,
-  FaFilm,
-  FaBroadcastTower,
-} from "react-icons/fa";
 import { technologies } from "../utils/technologies";
-
-const businessDomains = [
-  { name: "Fintech", icon: <FaChartLine /> },
-  { name: "Logistics", icon: <FaShippingFast /> },
-  { name: "Retail", icon: <FaShoppingCart /> },
-  { name: "Healthcare", icon: <FaHeartbeat /> },
-  { name: "Automotive", icon: <FaCar /> },
-  { name: "Ecommerce", icon: <FaStore /> },
-  { name: "Media & Entertainment", icon: <FaFilm /> },
-  { name: "Telecom", icon: <FaBroadcastTower /> },
-];
+import { businessDomains } from "../utils/businessDomains";
 
 const TechnologiesSection = () => {
   const { t } = useTranslation("translation", { keyPrefix: "technologies" });
