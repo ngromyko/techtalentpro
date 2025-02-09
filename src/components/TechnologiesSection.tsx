@@ -12,7 +12,7 @@ import {
   FaFilm,
   FaBroadcastTower,
 } from "react-icons/fa";
-import { technologies } from "../utils/constants";
+import { technologies } from "../utils/technologies";
 
 const businessDomains = [
   { name: "Fintech", icon: <FaChartLine /> },
@@ -43,18 +43,20 @@ const TechnologiesSection = () => {
       </Container>
       <Container>
         <SectionHeader>{t("skillsAndCompetencies")}</SectionHeader>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8">
-          {technologies.map((tech) => (
-            <div
-              key={tech.technology}
-              className="flex flex-col items-center justify-center bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition-shadow"
-            >
-              <span className="text-gray-700 font-medium">{tech.technology}</span>
-              {tech.stack.map((stackItem) => (
-                <span key={stackItem} className="text-gray-700 font-small">
-                  {stackItem}
-                </span>
-              ))}
+        <div className="max-w-7xl mx-auto text-center">
+          {technologies.map((technology) => (
+            <div className="flex flex-col md:flex-row items-center mb-12 ">
+              <p className="flex items-center justify-center md:justify-start  h-full text-md md:text-xl font-bold text-gray-800 mb-4 md:mb-0 mr-5 min-w-60">
+                {technology.title}
+              </p>
+              <div className="flex items-center justify-center flex-wrap">
+                {technology.stack.map((stackItem) => (
+                  <div key={stackItem.name} className="flex flex-col items-center m-2">
+                    {stackItem.icon}
+                    <span className="mt-4 text-gray-700 text-sm font-medium">{stackItem.name}</span>
+                  </div>
+                ))}
+              </div>
             </div>
           ))}
         </div>
