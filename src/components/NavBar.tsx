@@ -28,7 +28,7 @@ const NavBar = () => {
             </div>
             {isShowLanguageSwitch && (
               <button
-                className="px-4 py-2 text-blue-600 rounded"
+                className="px-4 py-2 rounded"
                 onClick={() => {
                   const languageToSet = i18n.language === "en" ? "ru" : "en";
                   setCurrentLang(languageToSet);

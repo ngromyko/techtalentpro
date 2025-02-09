@@ -20,7 +20,7 @@ const BurgerMenu = () => {
           {sections.map((sections) => (
             <li key={sections.sectionName}>
               <a
-                className="text-gray-700 hover:text-blue-600 py-2 block border-b border-gray-400"
+                className="text-gray-700 hover:text-blue-600 py-2 block border-b border-blue-600"
                 onClick={() => {
                   setIsOpen(false);
                   scrollToSection(sections.sectionName);

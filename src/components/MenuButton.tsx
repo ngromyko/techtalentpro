@@ -9,7 +9,7 @@ interface Props {
   strokeWidth?: string | number;
 }
 
-const MenuButton = ({ isOpen, width, height, onClick, strokeWidth = 2, color = "#000" }: Props) => {
+const MenuButton = ({ isOpen, width, height, onClick, strokeWidth = 2, color = "#155dfc" }: Props) => {
   const variant = isOpen ? "opened" : "closed";
   const top = {
     closed: {
