@@ -1,14 +1,17 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "motion/react";
+import Section from "./common/Section";
+import Container from "./common/Container";
+import SectionHeader from "./common/SectionHeader";
 import { commonFadeUpAnimationProps } from "../utils/constants";
 
 const ServicesSection = () => {
   const { t } = useTranslation("translation", { keyPrefix: "services" });
 
   return (
-    <section id="services" className="py-20 bg-gray-50">
-      <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center mb-12">{t("ourServices")}</h2>
+    <Section sectionName={"services"} backgroundColor="gray">
+      <Container>
+        <SectionHeader>{t("ourServices")}</SectionHeader>
         <div className="grid md:grid-cols-3 gap-8">
           <motion.div
             className="bg-white p-6 rounded-lg shadow-lg"
@@ -35,8 +38,8 @@ const ServicesSection = () => {
             <p className="text-gray-600">{t("helpWithHr")}</p>
           </motion.div>
         </div>
-      </div>
-    </section>
+      </Container>
+    </Section>
   );
 };
 

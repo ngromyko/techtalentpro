@@ -1,13 +1,16 @@
 import { useTranslation } from "react-i18next";
+import Section from "./common/Section";
+import Container from "./common/Container";
+import SectionHeader from "./common/SectionHeader";
 
 const ContactUsSection = () => {
   const { t } = useTranslation("translation", { keyPrefix: "contact" });
 
   return (
-    <section id="contact" className="py-20 bg-blue-600">
-      <div className="container mx-auto px-6">
+    <Section sectionName={"contact"} backgroundColor="blue">
+      <Container>
         <div className="bg-white rounded-lg shadow-xl p-8 max-w-2xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-8">{t("contactUs")}</h2>
+          <SectionHeader>{t("contactUs")}</SectionHeader>
           <form id="contact-form" className="space-y-6">
             <div>
               <label className="block text-gray-700 mb-2">{t("yourName")}</label>
@@ -45,8 +48,8 @@ const ContactUsSection = () => {
             <p id="status-message" className="text-center mt-4"></p>
           </form>
         </div>
-      </div>
-    </section>
+      </Container>
+    </Section>
   );
 };
 

@@ -1,13 +1,15 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "motion/react";
+import Section from "./common/Section";
+import Container from "./common/Container";
 import { scrollToSection } from "../utils/scroll";
 
 const PromoSection = () => {
   const { t } = useTranslation("translation", { keyPrefix: "promo" });
 
   return (
-    <section className="pt-28 pb-20 bg-gradient-to-r from-blue-500 to-blue-700">
-      <div className="container mx-auto px-6">
+    <Section sectionName={"promo"} backgroundColor="blue">
+      <Container>
         <div className="flex flex-col md:flex-row items-center">
           <motion.div
             className="md:w-1/2 text-white"
@@ -55,8 +57,8 @@ const PromoSection = () => {
             </svg>
           </motion.div>
         </div>
-      </div>
-    </section>
+      </Container>
+    </Section>
   );
 };
 
