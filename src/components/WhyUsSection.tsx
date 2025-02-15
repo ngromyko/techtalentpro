@@ -1,14 +1,17 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "motion/react";
+import Section from "./common/Section";
+import Container from "./common/Container";
+import SectionHeader from "./common/SectionHeader";
 import { commonFadeRightAnimationProps, commonFadeLeftAnimationProps } from "../utils/constants";
 
 const WhyUsSection = () => {
   const { t } = useTranslation("translation", { keyPrefix: "whyUs" });
 
   return (
-    <section id="why-us" className="py-20 bg-white">
-      <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center mb-12">{t("whyChooseDoIT")}</h2>
+    <Section sectionName={"why-us"} backgroundColor="gray">
+      <Container>
+        <SectionHeader>{t("whyChooseDoIT")}</SectionHeader>
         <div className="grid md:grid-cols-1 gap-8">
           <motion.div
             className="flex items-start space-x-4"
@@ -22,7 +25,7 @@ const WhyUsSection = () => {
             </div>
             <div>
               <h3 className="text-xl font-bold mb-2">{t("deepItUnderstandingAndComplexApproach")}</h3>
-              <p className="text-gray-600">{t("doITSolutionOffers")}</p>
+              <p className="text-gray-600 whitespace-pre-wrap text-xl">{t("doITSolutionOffers")}</p>
             </div>
           </motion.div>
           <motion.div
@@ -42,12 +45,14 @@ const WhyUsSection = () => {
             </div>
             <div>
               <h3 className="text-xl font-bold mb-2">{t("benefitsOfItStaffAugmentation")}</h3>
-              <p className="text-gray-600">{t("softwareStaffAugmentationInvolvesIntegrating")}</p>
+              <p className="text-gray-600 whitespace-pre-wrap text-xl">
+                {t("softwareStaffAugmentationInvolvesIntegrating")}
+              </p>
             </div>
           </motion.div>
         </div>
-      </div>
-    </section>
+      </Container>
+    </Section>
   );
 };
 

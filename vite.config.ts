@@ -6,4 +6,5 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   // base: '/techtalentpro/',
   plugins: [react(), tailwindcss()],
+  base: "/main-project/",
 });

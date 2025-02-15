@@ -12,19 +12,19 @@ const BurgerMenu = () => {
     <div className="md:hidden">
       <MenuButton isOpen={isOpen} width={24} height={24} onClick={() => setIsOpen((prev) => !prev)} />
       <div
-        className={`fixed w-full h-full top-0 bg-blue-100 p-5 left-full opacity-95 transition-transform duration-300 ease-in-out ${
+        className={`fixed w-full h-full top-0 bg-white p-5 left-full transition-transform duration-300 ease-in-out ${
           isOpen ? "-translate-x-full" : ""
         }`}
       >
-        <ul className="space-y-4 pt-35 text-white text-lg">
+        <ul className="pt-16 text-white text-lg">
           {sections.map((sections) => (
             <li key={sections.sectionName}>
               <a
+                className="text-gray-700 hover:text-blue-600 py-2 block border-b border-blue-600"
                 onClick={() => {
                   setIsOpen(false);
                   scrollToSection(sections.sectionName);
                 }}
-                className="text-gray-700 hover:text-blue-600"
               >
                 {t(sections.sectionTranslateKey)}
               </a>
