@@ -43,10 +43,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
-          name: github-pages-artifact # Явное имя артефакта
+          name: github-pages-artifact # Оставляем имя для шага загрузки
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v3
-        with:
-          artifact-name: github-pages-artifact # Явное имя артефакта
+        uses: actions/deploy-pages@v3 # Убрали artifact-name отсюда
