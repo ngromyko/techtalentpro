@@ -18,23 +18,34 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 18
           cache: 'npm'
-      - name: Install dependencies
-        run: npm install
+
+      - name: Clean install
+        run: |
+          rm -rf node_modules
+          rm -f package-lock.json
+          npm install
+
       - name: Build
         run: npm run build
+        env:
+          NODE_OPTIONS: "--max_old_space_size=4096"
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
+
       - name: Upload artifact
-        uses: actions/upload-artifact@v4  # Используем upload-artifact вместо upload-pages-artifact
+        uses: actions/upload-artifact@v4
         with:
           name: github-pages
           path: './dist'
           retention-days: 1
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
