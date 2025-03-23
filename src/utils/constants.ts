@@ -50,3 +50,14 @@ export const staffAugmentationSectionTextKeys = [
   "globalTalent",
   "minimizedCosts",
 ];
+
+export const itRecrutmentSectionTextKeys = [
+  "accessToNicheItSpecialists",
+  "timeSavingRecruitmentProcess",
+  "reducedWorkloadForHrDepartments",
+  "comprehensiveCandidateAssessment",
+  "deepMarketExpertise",
+  "minimizingHiringRisks",
+  "confidentialAndExclusiveRecruitment",
+  "employerBrandDevelopment",
+];

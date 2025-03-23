@@ -3,6 +3,7 @@ import PromoSection from "./components/PromoSection";
 import AboutUsSection from "./components/AboutUsSection";
 import ServicesSection from "./components/ServicesSection";
 import StaffAugmentationSection from "./components/StaffAugmentationSection";
+import ItRecrutmentSection from "./components/ItRecrutmentSection";
 import TechnologiesSection from "./components/TechnologiesSection";
 import WhyUsSection from "./components/WhyUsSection";
 import ContactUsSection from "./components/ContactUsSection";
@@ -19,6 +20,7 @@ function App() {
         <AboutUsSection />
         <ServicesSection />
         <StaffAugmentationSection />
+        <ItRecrutmentSection />
         <TechnologiesSection />
         <WhyUsSection />
         <ContactUsSection />

@@ -72,6 +72,42 @@
       "description": "Since our specialists already possess the required skills, companies do not need to invest in their long-term training and adaptation."
     }
   },
+  "itRecruitment": {
+    "benefitsOfItRecruitingForBusiness": "Benefits of IT recruiting for business",
+    "sectionDescription": "Modern technologies are evolving rapidly, and companies are facing a shortage of qualified IT specialists. Finding and hiring such professionals requires a deep understanding of the industry, market knowledge, and effective recruitment methods. Our team helps businesses identify and attract top talent, saving time, resources, and reducing hiring risks",
+    "accessToNicheItSpecialists": {
+      "title": "Access to Niche IT Specialists",
+      "description": "Our IT recruiters have in-depth knowledge of the technology sector and access to a vast database of specialists. This allows us to find even the rarest and most in-demand professionals, such as DevOps engineers, Data Scientists, AI developers, and cybersecurity experts."
+    },
+    "timeSavingRecruitmentProcess": {
+      "title": "Time-Saving Recruitment Process",
+      "description": "Finding IT specialists can take months, especially when handled internally. Our team utilizes proven search methodologies, automated recruitment systems, and professional networks, significantly accelerating the hiring process."
+    },
+    "reducedWorkloadForHrDepartments": {
+      "title": "Reduced Workload for HR Departments",
+      "description": "Our IT recruitment services help lighten the burden on your internal HR team, as we handle the entire process of sourcing, screening, and conducting initial interviews. This is especially valuable for companies that lack experience in hiring technical specialists."
+    },
+    "comprehensiveCandidateAssessment": {
+      "title": "Comprehensive Candidate Assessment",
+      "description": "We conduct a thorough evaluation of candidates, including technical assessments, work experience analysis, reference checks, and cultural fit interviews. This ensures that specialists not only meet job requirements but also integrate seamlessly into your team."
+    },
+    "deepMarketExpertise": {
+      "title": "Deep Market Expertise",
+      "description": "Our organization possesses up-to-date insights into market trends, salary expectations, and in-demand technologies. This enables companies to create competitive job offers and attract top-tier talent."
+    },
+    "minimizingHiringRisks": {
+      "title": "Minimizing Hiring Risks",
+      "description": "Hiring mistakes can be costly for businesses. Our IT recruiters carefully analyze both the technical skills and personal qualities of candidates, reducing the chances of a poor hiring decision."
+    },
+    "confidentialAndExclusiveRecruitment": {
+      "title": "Confidential and Exclusive Recruitment",
+      "description": "Some vacancies require a high level of confidentiality. Our company can conduct anonymous candidate searches, ensuring that your company's identity remains undisclosed until the final negotiation stage."
+    },
+    "employerBrandDevelopment": {
+      "title": "Employer Brand Development",
+      "description": "A well-structured recruitment process enhances your company's reputation in the job market, making it easier to attract and retain top specialists. By maintaining a positive candidate experience, you not only hire the best talent but also foster long-term employee loyalty."
+    }
+  },
   "technologies": {
     "businessDomains": "Business Domains",
     "skillsAndCompetencies": "Skills and Competencies"
