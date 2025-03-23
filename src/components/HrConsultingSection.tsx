@@ -12,12 +12,12 @@ const HrConsultingSection = () => {
       <Container>
         <SectionHeader>{t("benefitsOfHrConsulting")}</SectionHeader>
         <p className="mb-4 text-xl">{t("sectionDescription")}</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="flex flex-wrap justify-center">
           {hrConsultingSectionTextKeys.map((textKey) => {
             return (
               <div
                 key={textKey}
-                className="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300"
+                className="bg-white m-4 p-6 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 md:w-[40%] lg:w-[30%]"
               >
                 <h3 className="text-xl font-semibold text-primary mb-2">{t(`${textKey}.title`)}</h3>
                 <p className="text-color-text">{t(`${textKey}.description`)}</p>
