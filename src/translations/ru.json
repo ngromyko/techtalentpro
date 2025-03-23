@@ -9,7 +9,6 @@
   },
   "promo": {
     "providingTopItTalent": "Предоставление лучших ИТ-талантов для вашего успеха",
-    "professionalItRecruitment": "Профессиональные решения по подбору ИТ-специалистов с гарантией качества",
     "startCollaboration": "Начать сотрудничество"
   },
   "about": {
@@ -149,11 +148,47 @@
     "skillsAndCompetencies": "Навыки и Компетенции"
   },
   "whyUs": {
-    "whyChooseDoIT": "Почему стоит выбрать DoIT Solution",
-    "deepItUnderstandingAndComplexApproach": "Глубокое понимание ИТ и комплексный подход",
-    "doITSolutionOffers": "DoIT Solution предлагает модель «Расширение команды» для увеличения команды, предоставляя специалистов в соответствии с потребностями клиента в течение в среднем 2–4 недель. Мы поддерживают кадровый резерв, в котором 10% экспертов доступны немедленно, а дополнительные ресурсы доступны по первому требованию. Процесс состоит из двух частей: поиск подходящего кандидата путем оценки технического и культурного соответствия и его плавная интеграция в проект. Поиск кандидата начинается с требований клиента, где менеджеры анализируют и создают профиль кандидата, обеспечивая соответствие интересам и требованиям проекта. На этапе интеграции специалисты проходят адаптацию, введение в проект и 2–4-недельный испытательный срок для подтверждения пригодности производительности. Производительность поддерживается с помощью структурированной поддержки, включающей координаторов проектов, технических экспертов, менеджеров по ресурсам и деливери менеджеров. Это обеспечивает бесшовную интеграцию, упреждающее снижение рисков и устойчивую высокую производительность в соответствии с целями клиента.",
-    "benefitsOfItStaffAugmentation": "Преимущества модели Расширение Команды",
-    "softwareStaffAugmentationInvolvesIntegrating": "Увеличение штата сотрудников в сфере программного обеспечения подразумевает интеграцию дополнительных талантов в ваши текущие команды. Это устраняет бремя поиска, подбора, обучения и удержания. \nЭкономически эффективные решения \nDoIT Solution сократит значительные расходы, связанные с процессами найма, управлением заработной платой и контролем проекта. \nНулевой риск подбора персонала \nБлагодаря услугам по увеличению штата сотрудников в сфере ИТ вы полностью избавитесь от бремени подбора персонала и связанных с этим расходов, что позволит вам легко масштабировать команды по мере изменения ваших потребностей. \nБыстрый доступ к навыкам \nПосле того, как вы отправите свои требования, вы получите первые резюме кандидатов для увеличения технической команды в течение 24 часов. Полный контроль \nЕсли у вас уже есть сильное внутреннее управление, вы можете сохранить полный контроль над проектом с помощью увеличения ресурсов и персонала."
+    "whyChooseDoIT": "Why Choose DoIT Solution",
+    "savingTimeAndResources": {
+      "title": "Saving Time and Resources",
+      "description": "Outsourcing business processes to our organization allows you to focus on strategic tasks instead of operational routines."
+    },
+    "reducingPersonnelCosts": {
+      "title": "Reducing Personnel Costs",
+      "description": "Eliminating the need to hire, train, and manage in-house employees significantly reduces your organization’s expenses."
+    },
+    "accessToHighlyQualifiedSpecialists": {
+      "title": "Access to Highly Qualified Specialists",
+      "description": "Our team provides experts with the necessary skills without the long search and selection process."
+    },
+    "flexibilityAndScalability": {
+      "title": "Flexibility and Scalability",
+      "description": "Quickly expand your team with our specialists based on your current business needs."
+    },
+    "fastProjectLaunch": {
+      "title": "Fast Project Launch",
+      "description": "Minimizing the time required to find specialists and set up workflows enables rapid project initiation."
+    },
+    "reducedLegalAndTaxRisks": {
+      "title": "Reduced Legal and Tax Risks",
+      "description": "No need to officially employ staff, reducing the burden on your legal and accounting departments."
+    },
+    "modernTechnologiesAndTools": {
+      "title": "Modern Technologies and Tools",
+      "description": "Access to cutting-edge technologies and industry best practices without the need for additional investment."
+    },
+    "increasedBusinessProcessEfficiency": {
+      "title": "Increased Business Process Efficiency",
+      "description": "Process optimization and the implementation of best practices enhance productivity and reduce costs."
+    },
+    "focusOnCoreBusiness": {
+      "title": "Focus on Core Business",
+      "description": "Your company can concentrate on its key competencies while delegating routine tasks to our specialists."
+    },
+    "qualityAssuranceAndResponsibility": {
+      "title": "Quality Assurance and Responsibility",
+      "description": "Our company takes full responsibility for the results, ensuring a high level of service quality."
+    }
   },
   "contact": {
     "contactUs": "Свяжитесь с нами",
