@@ -37,3 +37,16 @@ export const technologies = [
   { technology: "DevOps", stack: ["DevOps Engineers", "DevSecOps", "SRE", "Cloud Engineers"] },
   { technology: "Data Platform", stack: ["Data Analyst", "Data Engineer", "Data Scientist", "Big Data"] },
 ];
+
+export const staffAugmentationSectionTextKeys = [
+  "flexibility",
+  "costSavings",
+  "nicheSpecialists",
+  "reducedHrWorkload",
+  "rapidScaling",
+  "fullControl",
+  "fasterExecution",
+  "reducedRisks",
+  "globalTalent",
+  "minimizedCosts",
+];

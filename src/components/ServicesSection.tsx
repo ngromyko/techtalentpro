@@ -19,7 +19,7 @@ const ServicesSection = () => {
             {...commonFadeUpAnimationProps}
           >
             <h3 className="text-xl font-bold mb-4">{t("staffAugmentation")}</h3>
-            <p className="text-gray-600">{t("providingItSpecialists")}</p>
+            <p className="text-color-text">{t("providingItSpecialists")}</p>
           </motion.div>
           <motion.div
             className="bg-white p-6 rounded-lg shadow-lg"
@@ -27,7 +27,7 @@ const ServicesSection = () => {
             {...commonFadeUpAnimationProps}
           >
             <h3 className="text-xl font-bold mb-4">{t("itRecruitment")}</h3>
-            <p className="text-gray-600">{t("sourcingDevelopers")}</p>
+            <p className="text-color-text">{t("sourcingDevelopers")}</p>
           </motion.div>
           <motion.div
             className="bg-white p-6 rounded-lg shadow-lg"
@@ -35,7 +35,7 @@ const ServicesSection = () => {
             {...commonFadeUpAnimationProps}
           >
             <h3 className="text-xl font-bold mb-4">{t("hrConsulting")}</h3>
-            <p className="text-gray-600">{t("helpWithHr")}</p>
+            <p className="text-color-text">{t("helpWithHr")}</p>
           </motion.div>
         </div>
       </Container>
