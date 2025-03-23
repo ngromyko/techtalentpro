@@ -2,9 +2,9 @@ import { useTranslation } from "react-i18next";
 import Section from "./common/Section";
 import Container from "./common/Container";
 import SectionHeader from "./common/SectionHeader";
-import { itRecrutmentSectionTextKeys } from "../utils/constants";
+import { itRecruitmentSectionTextKeys } from "../utils/constants";
 
-const ItRecrutmentSection = () => {
+const ItRecruitmentSection = () => {
   const { t } = useTranslation("translation", { keyPrefix: "itRecruitment" });
 
   return (
@@ -13,7 +13,7 @@ const ItRecrutmentSection = () => {
         <SectionHeader>{t("benefitsOfItRecruitingForBusiness")}</SectionHeader>
         <p className="mb-4 text-xl">{t("sectionDescription")}</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {itRecrutmentSectionTextKeys.map((textKey) => {
+          {itRecruitmentSectionTextKeys.map((textKey) => {
             return (
               <div
                 key={textKey}
@@ -30,4 +30,4 @@ const ItRecrutmentSection = () => {
   );
 };
 
-export default ItRecrutmentSection;
+export default ItRecruitmentSection;

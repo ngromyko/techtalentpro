@@ -18,7 +18,7 @@ const Section = ({ sectionName, backgroundColor, backgroundImagePath, children }
         return "bg-white";
     }
   };
-  console.log();
+
   return (
     <section
       id={sectionName}

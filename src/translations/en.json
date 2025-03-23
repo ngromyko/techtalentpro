@@ -108,6 +108,42 @@
       "description": "A well-structured recruitment process enhances your company's reputation in the job market, making it easier to attract and retain top specialists. By maintaining a positive candidate experience, you not only hire the best talent but also foster long-term employee loyalty."
     }
   },
+  "hrConsulting": {
+    "benefitsOfHrConsulting": "Benefits of HR Consulting",
+    "sectionDescription": "Our organization helps companies effectively manage human resources",
+    "optimizationOfHrManagementProcesses": {
+      "title": "Optimization of HR Management Processes",
+      "description": "Our consultants help improve key processes such as recruitment, employee training and development, and performance evaluation, which enhances productivity and reduces costs."
+    },
+    "improvedHiringQuality": {
+      "title": "Improved Hiring Quality",
+      "description": "Our team helps develop effective strategies for selecting and evaluating candidates, ensuring that you find the right specialists who align with your company's requirements and culture."
+    },
+    "organizationalStructureDevelopment": {
+      "title": "Organizational Structure Development",
+      "description": "Our consultants can optimize your company’s structure, improve interactions between departments, and ensure an efficient distribution of roles, leading to better overall performance."
+    },
+    "costReductionInHrManagement": {
+      "title": "Cost Reduction in HR Management",
+      "description": "We help identify redundant or inefficient processes, allowing you to reduce HR management costs and increase business profitability."
+    },
+    "developmentOfTrainingAndDevelopmentPrograms": {
+      "title": "Development of Training and Development Programs",
+      "description": "Our consultants create customized training and development programs, enabling employees to enhance their skills and adapt to changing market conditions."
+    },
+    "complianceWithLaborLawsAndRegulations": {
+      "title": "Compliance with Labor Laws and Regulations",
+      "description": "Our team ensures that your company complies with current labor laws and regulations, reducing legal risks and potential penalties."
+    },
+    "corporateCultureAnalysisAndImprovement": {
+      "title": "Corporate Culture Analysis and Improvement",
+      "description": "We can assess your corporate culture and offer solutions to enhance workplace morale, increase employee loyalty, and reduce staff turnover."
+    },
+    "talentMotivationAndRetention": {
+      "title": "Talent Motivation and Retention",
+      "description": "Our specialists develop effective motivation and bonus systems, as well as employee retention programs, helping you attract and retain top talent."
+    }
+  },
   "technologies": {
     "businessDomains": "Business Domains",
     "skillsAndCompetencies": "Skills and Competencies"

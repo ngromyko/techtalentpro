@@ -51,7 +51,7 @@ export const staffAugmentationSectionTextKeys = [
   "minimizedCosts",
 ];
 
-export const itRecrutmentSectionTextKeys = [
+export const itRecruitmentSectionTextKeys = [
   "accessToNicheItSpecialists",
   "timeSavingRecruitmentProcess",
   "reducedWorkloadForHrDepartments",
@@ -60,4 +60,15 @@ export const itRecrutmentSectionTextKeys = [
   "minimizingHiringRisks",
   "confidentialAndExclusiveRecruitment",
   "employerBrandDevelopment",
+];
+
+export const hrConsultingSectionTextKeys = [
+  "optimizationOfHrManagementProcesses",
+  "improvedHiringQuality",
+  "organizationalStructureDevelopment",
+  "costReductionInHrManagement",
+  "developmentOfTrainingAndDevelopmentPrograms",
+  "complianceWithLaborLawsAndRegulations",
+  "corporateCultureAnalysisAndImprovement",
+  "talentMotivationAndRetention",
 ];
