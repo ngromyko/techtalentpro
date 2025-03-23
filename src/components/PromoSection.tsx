@@ -3,12 +3,13 @@ import { motion } from "motion/react";
 import Section from "./common/Section";
 import Container from "./common/Container";
 import { scrollToSection } from "../utils/scroll";
+import promoImg from "../assets/promo_section_background.png";
 
 const PromoSection = () => {
   const { t } = useTranslation("translation", { keyPrefix: "promo" });
 
   return (
-    <Section sectionName={"promo"} backgroundColor="blue">
+    <Section sectionName={"promo"} backgroundColor="blue" backgroundImagePath={promoImg}>
       <Container>
         <div className="flex flex-col md:flex-row items-center">
           <motion.div

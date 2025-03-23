@@ -27,6 +27,49 @@
     "hrConsulting": "HR Consulting",
     "helpWithHr": "Help with HR processes and IT team building"
   },
+  "staffAugmentation": {
+    "sectionDescription": "Modern business demands flexibility and agility in resource management, especially in the IT sector. The Staff Augmentation model is our key focus, helping companies quickly attract qualified specialists without the need for long-term hiring. This is the ideal solution for scaling projects, temporarily strengthening teams, and filling expertise gaps.",
+    "flexibility": {
+      "title": "Flexibility in Resource Management",
+      "description": "Your company can quickly expand its workforce based on current tasks without being burdened by long-term commitments."
+    },
+    "costSavings": {
+      "title": "Cost Savings on Hiring and Administrative Expenses",
+      "description": "There’s no need to spend time and resources on recruiting, onboarding, and managing new employees—our organization takes care of it all."
+    },
+    "nicheSpecialists": {
+      "title": "Access to Niche Specialists",
+      "description": "If a project requires rare skills, Staff Augmentation enables you to quickly bring in our experts with the necessary expertise, bypassing the complex hiring process."
+    },
+    "reducedHrWorkload": {
+      "title": "Reduced Workload for Your HR Department",
+      "description": "Our team handles all aspects of selection, hiring, and administration of specialists, freeing up your internal HR department."
+    },
+    "rapidScaling": {
+      "title": "Rapid Team Scaling",
+      "description": "When launching new projects or during peak workloads, you can swiftly expand your team with our employees and later downsize without legal complications."
+    },
+    "fullControl": {
+      "title": "Full Control Over Projects and Processes",
+      "description": "Unlike outsourcing, our Staff Augmentation specialists integrate into your existing team and work under your management, ensuring full control over processes."
+    },
+    "fasterExecution": {
+      "title": "Faster Project Execution",
+      "description": "By quickly bringing in our experts, your projects progress faster, giving your business a competitive edge."
+    },
+    "reducedRisks": {
+      "title": "Reduced Legal and Operational Risks",
+      "description": "Your company does not need to officially employ our specialists, eliminating legal complexities related to labor laws."
+    },
+    "globalTalent": {
+      "title": "Access to a Global Talent Pool",
+      "description": "Staff Augmentation allows you to engage specialists from different countries, expanding hiring opportunities and enhancing work quality."
+    },
+    "minimizedCosts": {
+      "title": "Minimized Training and Onboarding Costs",
+      "description": "Since our specialists already possess the required skills, companies do not need to invest in their long-term training and adaptation."
+    }
+  },
   "technologies": {
     "businessDomains": "Business Domains",
     "skillsAndCompetencies": "Skills and Competencies"
