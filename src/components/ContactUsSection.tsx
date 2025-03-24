@@ -31,7 +31,7 @@ const ContactUsSection = () => {
         // @ts-ignore
         formData,
         {
-          publicKey:  import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+          publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
         }
       );
       

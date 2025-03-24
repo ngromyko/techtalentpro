@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
 :root {
+  --color-primary: #213547;
+  --color-secondary: #364153;
+  --color-text: #4a5565;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -35,12 +38,15 @@ button {
     color: #213547;
     background-color: #ffffff;
   }
-  a:hover {
-    color: #747bff;
-  }
-
 }
 
 a {
-  cursor: pointer
+  cursor: pointer;
+}
+
+@theme {
+  --color-primary: #213547;
+  --color-secondary: #364153;
+  --color-color-text: #4a5565;
+  --color-primary-blue: #155dfc;
 }

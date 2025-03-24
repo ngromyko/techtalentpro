@@ -9,14 +9,14 @@
   },
   "promo": {
     "providingTopItTalent": "Providing Top IT Talent for Your Success",
-    "professionalItRecruitment": "Professional IT recruitment solutions with quality guarantee",
     "startCollaboration": "Start Collaboration"
   },
   "about": {
     "aboutOurCompany": "About Our Company",
     "yearsInIt": "Years in IT Industry",
     "fullTimeProfessionals": "Full-time Professionals",
-    "staffTurnoverRate": "Staff turnover rate"
+    "staffTurnoverRate": "Staff turnover rate",
+    "customerSavings": "Customer savings"
   },
   "services": {
     "ourServices": "Our Services",
@@ -27,16 +27,168 @@
     "hrConsulting": "HR Consulting",
     "helpWithHr": "Help with HR processes and IT team building"
   },
+  "staffAugmentation": {
+    "advantagesOfTheStaffAugmentationModel": "Advantages of the Staff Augmentation Model",
+    "sectionDescription": "Modern business demands flexibility and agility in resource management, especially in the IT sector. The Staff Augmentation model is our key focus, helping companies quickly attract qualified specialists without the need for long-term hiring. This is the ideal solution for scaling projects, temporarily strengthening teams, and filling expertise gaps.",
+    "flexibility": {
+      "title": "Flexibility in Resource Management",
+      "description": "Your company can quickly expand its workforce based on current tasks without being burdened by long-term commitments."
+    },
+    "costSavings": {
+      "title": "Cost Savings on Hiring and Administrative Expenses",
+      "description": "There’s no need to spend time and resources on recruiting, onboarding, and managing new employees—our organization takes care of it all."
+    },
+    "nicheSpecialists": {
+      "title": "Access to Niche Specialists",
+      "description": "If a project requires rare skills, Staff Augmentation enables you to quickly bring in our experts with the necessary expertise, bypassing the complex hiring process."
+    },
+    "reducedHrWorkload": {
+      "title": "Reduced Workload for Your HR Department",
+      "description": "Our team handles all aspects of selection, hiring, and administration of specialists, freeing up your internal HR department."
+    },
+    "rapidScaling": {
+      "title": "Rapid Team Scaling",
+      "description": "When launching new projects or during peak workloads, you can swiftly expand your team with our employees and later downsize without legal complications."
+    },
+    "fullControl": {
+      "title": "Full Control Over Projects and Processes",
+      "description": "Unlike outsourcing, our Staff Augmentation specialists integrate into your existing team and work under your management, ensuring full control over processes."
+    },
+    "fasterExecution": {
+      "title": "Faster Project Execution",
+      "description": "By quickly bringing in our experts, your projects progress faster, giving your business a competitive edge."
+    },
+    "reducedRisks": {
+      "title": "Reduced Legal and Operational Risks",
+      "description": "Your company does not need to officially employ our specialists, eliminating legal complexities related to labor laws."
+    },
+    "globalTalent": {
+      "title": "Access to a Global Talent Pool",
+      "description": "Staff Augmentation allows you to engage specialists from different countries, expanding hiring opportunities and enhancing work quality."
+    },
+    "minimizedCosts": {
+      "title": "Minimized Training and Onboarding Costs",
+      "description": "Since our specialists already possess the required skills, companies do not need to invest in their long-term training and adaptation."
+    }
+  },
+  "itRecruitment": {
+    "benefitsOfItRecruitingForBusiness": "Benefits of IT recruiting for business",
+    "sectionDescription": "Modern technologies are evolving rapidly, and companies are facing a shortage of qualified IT specialists. Finding and hiring such professionals requires a deep understanding of the industry, market knowledge, and effective recruitment methods. Our team helps businesses identify and attract top talent, saving time, resources, and reducing hiring risks",
+    "accessToNicheItSpecialists": {
+      "title": "Access to Niche IT Specialists",
+      "description": "Our IT recruiters have in-depth knowledge of the technology sector and access to a vast database of specialists. This allows us to find even the rarest and most in-demand professionals, such as DevOps engineers, Data Scientists, AI developers, and cybersecurity experts."
+    },
+    "timeSavingRecruitmentProcess": {
+      "title": "Time-Saving Recruitment Process",
+      "description": "Finding IT specialists can take months, especially when handled internally. Our team utilizes proven search methodologies, automated recruitment systems, and professional networks, significantly accelerating the hiring process."
+    },
+    "reducedWorkloadForHrDepartments": {
+      "title": "Reduced Workload for HR Departments",
+      "description": "Our IT recruitment services help lighten the burden on your internal HR team, as we handle the entire process of sourcing, screening, and conducting initial interviews. This is especially valuable for companies that lack experience in hiring technical specialists."
+    },
+    "comprehensiveCandidateAssessment": {
+      "title": "Comprehensive Candidate Assessment",
+      "description": "We conduct a thorough evaluation of candidates, including technical assessments, work experience analysis, reference checks, and cultural fit interviews. This ensures that specialists not only meet job requirements but also integrate seamlessly into your team."
+    },
+    "deepMarketExpertise": {
+      "title": "Deep Market Expertise",
+      "description": "Our organization possesses up-to-date insights into market trends, salary expectations, and in-demand technologies. This enables companies to create competitive job offers and attract top-tier talent."
+    },
+    "minimizingHiringRisks": {
+      "title": "Minimizing Hiring Risks",
+      "description": "Hiring mistakes can be costly for businesses. Our IT recruiters carefully analyze both the technical skills and personal qualities of candidates, reducing the chances of a poor hiring decision."
+    },
+    "confidentialAndExclusiveRecruitment": {
+      "title": "Confidential and Exclusive Recruitment",
+      "description": "Some vacancies require a high level of confidentiality. Our company can conduct anonymous candidate searches, ensuring that your company's identity remains undisclosed until the final negotiation stage."
+    },
+    "employerBrandDevelopment": {
+      "title": "Employer Brand Development",
+      "description": "A well-structured recruitment process enhances your company's reputation in the job market, making it easier to attract and retain top specialists. By maintaining a positive candidate experience, you not only hire the best talent but also foster long-term employee loyalty."
+    }
+  },
+  "hrConsulting": {
+    "benefitsOfHrConsulting": "Benefits of HR Consulting",
+    "sectionDescription": "Our organization helps companies effectively manage human resources",
+    "optimizationOfHrManagementProcesses": {
+      "title": "Optimization of HR Management Processes",
+      "description": "Our consultants help improve key processes such as recruitment, employee training and development, and performance evaluation, which enhances productivity and reduces costs."
+    },
+    "improvedHiringQuality": {
+      "title": "Improved Hiring Quality",
+      "description": "Our team helps develop effective strategies for selecting and evaluating candidates, ensuring that you find the right specialists who align with your company's requirements and culture."
+    },
+    "organizationalStructureDevelopment": {
+      "title": "Organizational Structure Development",
+      "description": "Our consultants can optimize your company’s structure, improve interactions between departments, and ensure an efficient distribution of roles, leading to better overall performance."
+    },
+    "costReductionInHrManagement": {
+      "title": "Cost Reduction in HR Management",
+      "description": "We help identify redundant or inefficient processes, allowing you to reduce HR management costs and increase business profitability."
+    },
+    "developmentOfTrainingAndDevelopmentPrograms": {
+      "title": "Development of Training and Development Programs",
+      "description": "Our consultants create customized training and development programs, enabling employees to enhance their skills and adapt to changing market conditions."
+    },
+    "complianceWithLaborLawsAndRegulations": {
+      "title": "Compliance with Labor Laws and Regulations",
+      "description": "Our team ensures that your company complies with current labor laws and regulations, reducing legal risks and potential penalties."
+    },
+    "corporateCultureAnalysisAndImprovement": {
+      "title": "Corporate Culture Analysis and Improvement",
+      "description": "We can assess your corporate culture and offer solutions to enhance workplace morale, increase employee loyalty, and reduce staff turnover."
+    },
+    "talentMotivationAndRetention": {
+      "title": "Talent Motivation and Retention",
+      "description": "Our specialists develop effective motivation and bonus systems, as well as employee retention programs, helping you attract and retain top talent."
+    }
+  },
   "technologies": {
     "businessDomains": "Business Domains",
     "skillsAndCompetencies": "Skills and Competencies"
   },
   "whyUs": {
     "whyChooseDoIT": "Why Choose DoIT Solution",
-    "deepItUnderstandingAndComplexApproach": "Deep IT Understanding and Complex approach",
-    "doITSolutionOffers": "DoIT Solution offers an \"Extended Team\" model for team augmentation, supplying specialists based on client needs within an average of 2-4 weeks. We maintain a talent pool where 10% of experts are available immediately, with additional resources accessible on short notice. The process involves two parts: finding the right candidate by assessing technical and cultural fit, and integrating them smoothly into the project. Candidate search starts with client requirements, where managers analyze and create a candidate profile, ensuring alignment with project interests and requirements. In the integration phase, specialists undergo onboarding, project introduction, and a 2-4 week trial period to confirm performance suitability. Performance is maintained through a structured support framework involving project coordinators, technical experts, resource managers, and delivery managers. This ensures seamless integration, proactive risk mitigation, and sustained high performance aligned with client goals.",
-    "benefitsOfItStaffAugmentation": "Benefits of IT staff augmentation",
-    "softwareStaffAugmentationInvolvesIntegrating": "Software staff augmentation involves integrating additional talent into your current teams. This eliminates the burden of sourcing, recruiting, training, and retaining. \nCost-effective solutions \nDoIT Solution will reduce the hefty expenses associated with hiring processes, managing payroll, and overseeing the project. \nZero recruitment risk \nThrough IT staff augmentation services, you will completely relieve yourself of the recruitment burden and associated costs, allowing you to easily scale teams up and down as your needs change. \nFast access to skills \nOnce you have submitted your requirements, you'll receive the first candidates' CVs for technical team augmentation within 24 hours. \nFull control \nIf you already have strong internal management, you can retain full control over the project with resource and staff augmentation."
+    "savingTimeAndResources": {
+      "title": "Saving Time and Resources",
+      "description": "Outsourcing business processes to our organization allows you to focus on strategic tasks instead of operational routines."
+    },
+    "reducingPersonnelCosts": {
+      "title": "Reducing Personnel Costs",
+      "description": "Eliminating the need to hire, train, and manage in-house employees significantly reduces your organization’s expenses."
+    },
+    "accessToHighlyQualifiedSpecialists": {
+      "title": "Access to Highly Qualified Specialists",
+      "description": "Our team provides experts with the necessary skills without the long search and selection process."
+    },
+    "flexibilityAndScalability": {
+      "title": "Flexibility and Scalability",
+      "description": "Quickly expand your team with our specialists based on your current business needs."
+    },
+    "fastProjectLaunch": {
+      "title": "Fast Project Launch",
+      "description": "Minimizing the time required to find specialists and set up workflows enables rapid project initiation."
+    },
+    "reducedLegalAndTaxRisks": {
+      "title": "Reduced Legal and Tax Risks",
+      "description": "No need to officially employ staff, reducing the burden on your legal and accounting departments."
+    },
+    "modernTechnologiesAndTools": {
+      "title": "Modern Technologies and Tools",
+      "description": "Access to cutting-edge technologies and industry best practices without the need for additional investment."
+    },
+    "increasedBusinessProcessEfficiency": {
+      "title": "Increased Business Process Efficiency",
+      "description": "Process optimization and the implementation of best practices enhance productivity and reduce costs."
+    },
+    "focusOnCoreBusiness": {
+      "title": "Focus on Core Business",
+      "description": "Your company can concentrate on its key competencies while delegating routine tasks to our specialists."
+    },
+    "qualityAssuranceAndResponsibility": {
+      "title": "Quality Assurance and Responsibility",
+      "description": "Our company takes full responsibility for the results, ensuring a high level of service quality."
+    }
   },
   "contact": {
     "contactUs": "Contact Us",

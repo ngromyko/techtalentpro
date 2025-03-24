@@ -2,6 +2,9 @@ import NavBar from "./components/NavBar";
 import PromoSection from "./components/PromoSection";
 import AboutUsSection from "./components/AboutUsSection";
 import ServicesSection from "./components/ServicesSection";
+import StaffAugmentationSection from "./components/StaffAugmentationSection";
+import ItRecruitmentSection from "./components/ItRecruitmentSection";
+import HrConsultingSection from "./components/HrConsultingSection";
 import TechnologiesSection from "./components/TechnologiesSection";
 import WhyUsSection from "./components/WhyUsSection";
 import ContactUsSection from "./components/ContactUsSection";
@@ -17,6 +20,9 @@ function App() {
         <PromoSection />
         <AboutUsSection />
         <ServicesSection />
+        <StaffAugmentationSection />
+        <ItRecruitmentSection />
+        <HrConsultingSection />
         <TechnologiesSection />
         <WhyUsSection />
         <ContactUsSection />

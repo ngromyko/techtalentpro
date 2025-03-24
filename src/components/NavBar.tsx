@@ -20,7 +20,7 @@ const NavBar = () => {
                 <a
                   key={sections.sectionName}
                   onClick={() => scrollToSection(sections.sectionName)}
-                  className="text-gray-700 hover:text-blue-600"
+                  className="text-secondary hover:text-primary-blue"
                 >
                   {t(sections.sectionTranslateKey)}
                 </a>
