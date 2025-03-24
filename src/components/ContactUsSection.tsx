@@ -34,7 +34,7 @@ const ContactUsSection = () => {
           publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
         }
       );
-
+      
       setFormData(defaultValues);
     } catch (err) {
       if (err instanceof EmailJSResponseStatus) {
