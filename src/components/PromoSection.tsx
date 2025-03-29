@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import Section from "./common/Section";
 import Container from "./common/Container";
 import { scrollToSection } from "../utils/scroll";
-import promoImg from "../assets/promo_section_background.png";
+import promoImg from "../assets/promo_section_background.webp";
 
 const PromoSection = () => {
   const { t } = useTranslation("translation", { keyPrefix: "promo" });
@@ -18,7 +18,7 @@ const PromoSection = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ ease: "easeOut", duration: 1 }}
           >
-            <h1 className="text-4xl md:text-5xl font-bold mb-24">{t("providingTopItTalent")}</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-24">{t("title")}</h1>
             <button
               onClick={() => scrollToSection("contact")}
               className="bg-white text-blue-600 px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition duration-300"

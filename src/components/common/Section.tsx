@@ -5,9 +5,18 @@ interface SectionProps {
   children: ReactNode;
   backgroundColor?: "blue" | "gray";
   backgroundImagePath?: string;
+  minHeight?: number;
+  className?: string;
 }
 
-const Section = ({ sectionName, backgroundColor, backgroundImagePath, children }: SectionProps) => {
+const Section = ({
+  sectionName,
+  backgroundColor,
+  backgroundImagePath,
+  minHeight,
+  className,
+  children,
+}: SectionProps) => {
   const getBackgroundColor = () => {
     switch (backgroundColor) {
       case "blue":
@@ -19,10 +28,17 @@ const Section = ({ sectionName, backgroundColor, backgroundImagePath, children }
     }
   };
 
+  const getMinHeight = () => {
+    return minHeight ? minHeight : 0;
+  };
+
   return (
     <section
       id={sectionName}
-      className={`py-20 ${getBackgroundColor()} ${backgroundImagePath ? `bg-cover bg-center` : ""}`}
+      className={`py-20 
+        ${getBackgroundColor()} ${backgroundImagePath ? `bg-cover bg-center` : ""} 
+        min-h-[${getMinHeight()}px] 
+        ${className ? className : ""}`}
       style={backgroundImagePath ? { backgroundImage: `url(${backgroundImagePath})` } : {}}
     >
       {children}

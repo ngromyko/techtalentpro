@@ -43,7 +43,7 @@ const AboutUsSection = () => {
             {...commonFadeUpAnimationProps}
           >
             <div className="text-4xl text-primary-blue mb-4">20%</div>
-            <p className="text-color-text">{t("staffTurnoverRate")}</p>
+            <p className="text-color-text">{t("customerSavings")}</p>
           </motion.div>
         </div>
       </Container>
