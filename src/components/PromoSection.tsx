@@ -56,6 +56,24 @@ const PromoSection = () => {
               <line x1="200" y1="200" x2="600" y2="200" stroke="#659DBD" strokeWidth="3" />
             </svg>
           </motion.div>
+          {/* <video width="640" height="360" controls>
+            <source
+              src="https://drive.google.com/uc?export=download&id=1Yqm6Eqh7TSYjKstKM5aMTOXr6u04FK3F"
+              // https://drive.google.com/uc?export=download&id=1Yqm6Eqh7TSYjKstKM5aMTOXr6u04FK3F
+              // "https://drive.google.com/file/d/1Yqm6Eqh7TSYjKstKM5aMTOXr6u04FK3F/view?usp=drivesdk"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video> */}
+          {/* <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/vXRfAYWtyU8?si=xSFFErtL6V5DyhrF;autoplay=1;loop=1;controls=0;mute=1;modestbranding=1"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe> */}
         </div>
       </Container>
     </Section>

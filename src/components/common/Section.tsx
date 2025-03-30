@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { ReactNode, CSSProperties } from "react";
 
 interface SectionProps {
   sectionName: string;
@@ -28,8 +28,15 @@ const Section = ({
     }
   };
 
-  const getMinHeight = () => {
-    return minHeight ? minHeight : 0;
+  const getStyles = () => {
+    const styles: CSSProperties = {};
+    if (backgroundImagePath) {
+      styles.backgroundImage = `url(${backgroundImagePath})`;
+    }
+
+    styles.minHeight = minHeight || 0;
+
+    return styles;
   };
 
   return (
@@ -37,9 +44,8 @@ const Section = ({
       id={sectionName}
       className={`py-20 
         ${getBackgroundColor()} ${backgroundImagePath ? `bg-cover bg-center` : ""} 
-        min-h-[${getMinHeight()}px] 
         ${className ? className : ""}`}
-      style={backgroundImagePath ? { backgroundImage: `url(${backgroundImagePath})` } : {}}
+      style={getStyles()}
     >
       {children}
     </section>
