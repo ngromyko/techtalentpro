@@ -4,10 +4,24 @@ import Section from "./common/Section";
 import Container from "./common/Container";
 import SectionHeader from "./common/SectionHeader";
 import { commonFadeRightAnimationProps, commonFadeLeftAnimationProps } from "../utils/constants";
+import { useWindowSize } from "../hooks/useWindowSize";
 import { whyUsSectionKeys } from "../utils/whyUsSectionKeys";
+
+const fadeLeftAnimationProps = {
+  initial: { x: "100%", opacity: 0.1 },
+  whileInView: { x: "0%", opacity: 1 },
+  viewport: { once: true },
+};
+
+const fadeRightAnimationProps = {
+  initial: { x: "0%", opacity: 0.1 },
+  whileInView: { x: "100%", opacity: 1 },
+  viewport: { once: true },
+};
 
 const WhyUsSection = () => {
   const { t } = useTranslation("translation", { keyPrefix: "whyUs" });
+  const { isWideScreen } = useWindowSize();
 
   return (
     <Section sectionName={"why-us"}>
@@ -16,11 +30,14 @@ const WhyUsSection = () => {
         <div className="grid md:grid-cols-1 gap-8">
           {whyUsSectionKeys.map((item, index) => {
             const isOdd = index % 2 === 0;
-            const animationProps = isOdd ? commonFadeRightAnimationProps : commonFadeLeftAnimationProps;
+            const rightAnimationProps = isWideScreen ? fadeRightAnimationProps : commonFadeRightAnimationProps;
+            const leftAnimationProps = isWideScreen ? fadeLeftAnimationProps : commonFadeLeftAnimationProps;
+            const animationProps = isOdd ? leftAnimationProps : rightAnimationProps;
 
             return (
               <motion.div
-                className="flex items-start space-x-4"
+                key={item.key}
+                className="flex items-start space-x-4 w-full md:w-1/2"
                 transition={{ ease: "easeOut", duration: 1 }}
                 {...animationProps}
               >

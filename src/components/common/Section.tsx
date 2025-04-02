@@ -42,7 +42,7 @@ const Section = ({
   return (
     <section
       id={sectionName}
-      className={`py-20 
+      className={`py-20 relative 
         ${getBackgroundColor()} ${backgroundImagePath ? `bg-cover bg-center` : ""} 
         ${className ? className : ""}`}
       style={getStyles()}

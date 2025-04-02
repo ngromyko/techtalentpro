@@ -17,6 +17,7 @@ const StaffAugmentationSection = () => {
           {staffAugmentationSectionTextKeys.map((textKey) => {
             return (
               <Card
+                key={t(`${textKey}.title`) + t(`${textKey}.description`)}
                 heading={t(`${textKey}.title`)}
                 description={t(`${textKey}.description`)}
                 className="flex-0 min-w-full md:min-w-[calc(50%-1rem)] lg:min-w-[calc(33.333%-1rem)]"

@@ -4,13 +4,19 @@ import Container from "./common/Container";
 import SectionHeader from "./common/SectionHeader";
 import { technologies } from "../utils/technologies";
 import { businessDomains } from "../utils/businessDomains";
+import technologiesSectionBackground from "../assets/technologies_section_background.webp";
 
 const TechnologiesSection = () => {
   const { t } = useTranslation("translation", { keyPrefix: "technologies" });
 
   return (
-    <Section sectionName={"technologies"} backgroundColor="gray">
-      <Container className="mb-20">
+    <Section
+      sectionName={"technologies"}
+      backgroundColor="gray"
+      backgroundImagePath={technologiesSectionBackground}
+      className="before:absolute before:inset-0 before:w-full before:h-full before:bg-white before:opacity-70 before:z-1 before:content-['']"
+    >
+      <Container className="mb-20 relative z-1">
         <SectionHeader>{t("businessDomains")}</SectionHeader>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {businessDomains.map((domain, index) => (
@@ -21,7 +27,7 @@ const TechnologiesSection = () => {
           ))}
         </div>
       </Container>
-      <Container>
+      <Container className="relative z-1">
         <SectionHeader>{t("skillsAndCompetencies")}</SectionHeader>
         <div className="max-w-7xl mx-auto text-center">
           {technologies.map((technology) => (

@@ -4,6 +4,7 @@ import emailjs, { EmailJSResponseStatus } from "@emailjs/browser";
 import Section from "./common/Section";
 import Container from "./common/Container";
 import SectionHeader from "./common/SectionHeader";
+import contactUsSectionBackground from "../assets/contact_us_section_background.webp";
 
 interface FormI {
   name: string;
@@ -34,7 +35,7 @@ const ContactUsSection = () => {
           publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
         }
       );
-      
+
       setFormData(defaultValues);
     } catch (err) {
       if (err instanceof EmailJSResponseStatus) {
@@ -47,9 +48,9 @@ const ContactUsSection = () => {
   };
 
   return (
-    <Section sectionName={"contact"} backgroundColor="blue">
+    <Section sectionName={"contact"} backgroundColor="blue" backgroundImagePath={contactUsSectionBackground}>
       <Container>
-        <div className="bg-white rounded-lg shadow-xl p-8 max-w-2xl mx-auto">
+        <div className="bg-white rounded-lg shadow-xl p-8 max-w-xl">
           <SectionHeader>{t("contactUs")}</SectionHeader>
           <form onSubmit={sendEmail} id="contact-form" className="space-y-6">
             <div>
