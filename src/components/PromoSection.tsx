@@ -4,6 +4,7 @@ import Section from "./common/Section";
 import Container from "./common/Container";
 import { scrollToSection } from "../utils/scroll";
 import promoImg from "../assets/promo_section_background.webp";
+import promoVideo from "../assets/promo_video.mov";
 
 const PromoSection = () => {
   const { t } = useTranslation("translation", { keyPrefix: "promo" });
@@ -32,7 +33,7 @@ const PromoSection = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ ease: "easeOut", duration: 1 }}
           >
-            <svg viewBox="0 0 800 600" className="w-full h-auto">
+            {/* <svg viewBox="0 0 800 600" className="w-full h-auto">
               <circle cx="400" cy="300" r="250" fill="#f8fafc" />
               <circle cx="400" cy="300" r="200" fill="#f1f5f9" />
               <rect x="300" y="250" width="200" height="140" rx="10" fill="#659DBD" />
@@ -54,26 +55,18 @@ const PromoSection = () => {
               <line x1="200" y1="200" x2="400" y2="150" stroke="#659DBD" strokeWidth="3" />
               <line x1="400" y1="150" x2="600" y2="200" stroke="#659DBD" strokeWidth="3" />
               <line x1="200" y1="200" x2="600" y2="200" stroke="#659DBD" strokeWidth="3" />
-            </svg>
+            </svg> */}
+            <video
+              autoPlay
+              loop
+              playsInline
+              muted
+              className="w-[350px] h-[350px] rounded-full object-cover mx-auto"
+              // poster="/static/cd7172c71966e0652f978b4b6732efd0/c5377/first-frame-video.webp"
+            >
+              <source src={promoVideo} type="video/mp4" />
+            </video>
           </motion.div>
-          {/* <video width="640" height="360" controls>
-            <source
-              src="https://drive.google.com/uc?export=download&id=1Yqm6Eqh7TSYjKstKM5aMTOXr6u04FK3F"
-              // https://drive.google.com/uc?export=download&id=1Yqm6Eqh7TSYjKstKM5aMTOXr6u04FK3F
-              // "https://drive.google.com/file/d/1Yqm6Eqh7TSYjKstKM5aMTOXr6u04FK3F/view?usp=drivesdk"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video> */}
-          {/* <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/vXRfAYWtyU8?si=xSFFErtL6V5DyhrF;autoplay=1;loop=1;controls=0;mute=1;modestbranding=1"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe> */}
         </div>
       </Container>
     </Section>

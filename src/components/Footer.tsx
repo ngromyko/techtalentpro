@@ -3,7 +3,7 @@ import { MdOutlineMailOutline } from "react-icons/md";
 const Footer = () => (
   <footer className="bg-gray-800 text-white py-8">
     <div className="container mx-auto px-6">
-      <div className="flex flex-col md:flex-row justify-between items-center">
+      <div className="flex flex-col md:flex-row justify-between items-center  space-y-8">
         <div className="flex flex-col space-x-4">
           <h6>Contact Us</h6>
           <p>Dominikanów 30 31-409 Kraków, Poland</p>
