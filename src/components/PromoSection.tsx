@@ -33,37 +33,7 @@ const PromoSection = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ ease: "easeOut", duration: 1 }}
           >
-            {/* <svg viewBox="0 0 800 600" className="w-full h-auto">
-              <circle cx="400" cy="300" r="250" fill="#f8fafc" />
-              <circle cx="400" cy="300" r="200" fill="#f1f5f9" />
-              <rect x="300" y="250" width="200" height="140" rx="10" fill="#659DBD" />
-              <rect x="290" y="380" width="220" height="20" rx="5" fill="#557d97" />
-              <text x="320" y="300" fill="white" fontFamily="monospace" fontSize="14">
-                <tspan x="320" y="300">
-                  &lt;code&gt;
-                </tspan>
-                <tspan x="320" y="320">
-                  {"{data}"}
-                </tspan>
-                <tspan x="320" y="340">
-                  &lt;/code&gt;
-                </tspan>
-              </text>
-              <circle cx="200" cy="200" r="20" fill="#659DBD" />
-              <circle cx="600" cy="200" r="20" fill="#659DBD" />
-              <circle cx="400" cy="150" r="20" fill="#659DBD" />
-              <line x1="200" y1="200" x2="400" y2="150" stroke="#659DBD" strokeWidth="3" />
-              <line x1="400" y1="150" x2="600" y2="200" stroke="#659DBD" strokeWidth="3" />
-              <line x1="200" y1="200" x2="600" y2="200" stroke="#659DBD" strokeWidth="3" />
-            </svg> */}
-            <video
-              autoPlay
-              loop
-              playsInline
-              muted
-              className="w-[350px] h-[350px] rounded-full object-cover mx-auto"
-              // poster="/static/cd7172c71966e0652f978b4b6732efd0/c5377/first-frame-video.webp"
-            >
+            <video autoPlay loop playsInline muted className="w-[350px] h-[350px] rounded-full object-cover mx-auto">
               <source src={promoVideo} type="video/mp4" />
             </video>
           </motion.div>
