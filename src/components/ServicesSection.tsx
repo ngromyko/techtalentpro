@@ -3,40 +3,47 @@ import { motion } from "motion/react";
 import Section from "./common/Section";
 import Container from "./common/Container";
 import SectionHeader from "./common/SectionHeader";
+import Card from "./common/Card";
 import { commonFadeUpAnimationProps } from "../utils/constants";
+import aboutUsImage from "../assets/about_us_section_background.webp";
+
+const MotionCard = motion(Card);
 
 const ServicesSection = () => {
   const { t } = useTranslation("translation", { keyPrefix: "services" });
 
   return (
-    <Section sectionName={"services"} backgroundColor="gray">
+    <Section
+      sectionName={"services"}
+      backgroundColor="gray"
+      backgroundImagePath={aboutUsImage}
+      minHeight={867}
+      className="flex h-full flex-col justify-end"
+    >
       <Container>
-        <SectionHeader>{t("ourServices")}</SectionHeader>
+        <SectionHeader color="white">{t("ourServices")}</SectionHeader>
         <div className="grid md:grid-cols-3 gap-8">
-          <motion.div
-            className="bg-white p-6 rounded-lg shadow-lg"
+          <MotionCard
+            key={t("staffAugmentation")}
+            heading={t("staffAugmentation")}
+            description={t("providingItSpecialists")}
             transition={{ ease: "easeOut", duration: 1 }}
             {...commonFadeUpAnimationProps}
-          >
-            <h3 className="text-xl font-bold mb-4">{t("staffAugmentation")}</h3>
-            <p className="text-color-text">{t("providingItSpecialists")}</p>
-          </motion.div>
-          <motion.div
-            className="bg-white p-6 rounded-lg shadow-lg"
+          />
+          <MotionCard
+            key={t("itRecruitment")}
+            heading={t("itRecruitment")}
+            description={t("sourcingDevelopers")}
             transition={{ ease: "easeOut", duration: 1, delay: 0.2 }}
             {...commonFadeUpAnimationProps}
-          >
-            <h3 className="text-xl font-bold mb-4">{t("itRecruitment")}</h3>
-            <p className="text-color-text">{t("sourcingDevelopers")}</p>
-          </motion.div>
-          <motion.div
-            className="bg-white p-6 rounded-lg shadow-lg"
+          />
+          <MotionCard
+            key={t("hrConsulting")}
+            heading={t("hrConsulting")}
+            description={t("helpWithHr")}
             transition={{ ease: "easeOut", duration: 1, delay: 0.4 }}
             {...commonFadeUpAnimationProps}
-          >
-            <h3 className="text-xl font-bold mb-4">{t("hrConsulting")}</h3>
-            <p className="text-color-text">{t("helpWithHr")}</p>
-          </motion.div>
+          />
         </div>
       </Container>
     </Section>
