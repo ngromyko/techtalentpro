@@ -24,7 +24,7 @@ const PromoSection = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ ease: "easeOut", duration: 1 }}
         >
-          <h1 className="text-4xl md:text-5xl font-bold mb-24">{t("title")}</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-24">{t("title")}</h1>
           <button
             onClick={() => scrollToSection("contact")}
             className="bg-white text-blue-600 px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition duration-300"
