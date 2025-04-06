@@ -12,7 +12,7 @@ const HrConsultingSection = () => {
     <Section sectionName={"hrConsulting"}>
       <Container>
         <SectionHeader>{t("benefitsOfHrConsulting")}</SectionHeader>
-        <p className="mb-4 text-xl">{t("sectionDescription")}</p>
+        <p className="mb-4 text-xl text-center">{t("sectionDescription")}</p>
         <div className="flex flex-wrap justify-center gap-4">
           {hrConsultingSectionTextKeys.map((textKey) => {
             return (

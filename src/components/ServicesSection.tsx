@@ -15,7 +15,6 @@ const ServicesSection = () => {
   return (
     <Section
       sectionName={"services"}
-      backgroundColor="gray"
       backgroundImagePath={aboutUsImage}
       minHeight={867}
       className="flex h-full flex-col justify-end"

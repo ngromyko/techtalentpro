@@ -21,8 +21,8 @@ const TechnologiesSection = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {businessDomains.map((domain, index) => (
             <div key={index} className="flex items-center">
-              <div className="text-primary text-4xl mr-4">{domain.icon}</div>
-              <span className="text-secondary font-medium">{domain.name}</span>
+              <div className="text-primary mr-4">{domain.icon}</div>
+              <span className="text-secondary font-medium text-lg">{domain.name}</span>
             </div>
           ))}
         </div>
@@ -30,21 +30,27 @@ const TechnologiesSection = () => {
       <Container className="relative z-1">
         <SectionHeader>{t("skillsAndCompetencies")}</SectionHeader>
         <div className="max-w-7xl mx-auto text-center">
-          {technologies.map((technology) => (
-            <div className="flex flex-col md:flex-row items-center mb-12" key={technology.title}>
-              <p className="flex items-center justify-center md:justify-start  h-full text-md md:text-xl font-bold text-primary mb-4 md:mb-0 mr-5 min-w-60">
-                {technology.title}
-              </p>
-              <div className="flex items-center justify-center flex-wrap">
-                {technology.stack.map((stackItem) => (
-                  <div key={stackItem.name} className="flex flex-col items-center m-2">
-                    {stackItem.icon}
-                    <span className="mt-4 text-gray-700 text-sm font-medium text-secondary">{stackItem.name}</span>
-                  </div>
-                ))}
+          {technologies.map((technology, index) => {
+            const isOdd = index % 2 === 1;
+            return (
+              <div
+                className={`flex flex-col md:flex-row ${isOdd ? "md:justify-end" : ""} items-center mb-12`}
+                key={technology.title}
+              >
+                <p className="flex items-center justify-center md:justify-start  h-full text-lg md:text-xl font-bold text-primary mb-4 md:mb-0 mr-5 min-w-60">
+                  {technology.title}
+                </p>
+                <div className="flex items-center justify-center flex-wrap">
+                  {technology.stack.map((stackItem) => (
+                    <div key={stackItem.name} className="flex flex-col items-center m-2 md:m-3">
+                      {stackItem.icon}
+                      <span className="mt-4 text-gray-700 text-lg font-medium text-secondary">{stackItem.name}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </Container>
     </Section>

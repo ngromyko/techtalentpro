@@ -8,7 +8,7 @@
     "contact": "Контакты"
   },
   "promo": {
-    "title": "Услуги по увеличению численности персонала по запросу, предоставляющие лучших ИТ-талантов для вашего успеха",
+    "title": "Предоставление лучших ИТ-талантов для вашего успеха",
     "startCollaboration": "Начать сотрудничество"
   },
   "about": {
@@ -72,7 +72,7 @@
     }
   },
   "itRecruitment": {
-    "benefitsOfItRecruitingForBusiness": "Преимущества HR-консалтинга",
+    "benefitsOfItRecruitingForBusiness": "Преимущества ИТ-рекрутинга для бизнеса",
     "sectionDescription": "Современные технологии развиваются стремительно, и компании сталкиваются с нехваткой квалифицированных IT-специалистов. Поиск и найм таких сотрудников требует глубокого понимания отрасли, знания рынка и эффективных методов подбора. Наша команда помогает компаниям находить и привлекать лучших специалистов, экономя время, ресурсы и снижая риски при найме.",
     "accessToNicheItSpecialists": {
       "title": "Доступ к узкопрофильным специалистам",
@@ -148,46 +148,46 @@
     "skillsAndCompetencies": "Навыки и Компетенции"
   },
   "whyUs": {
-    "whyChooseDoIT": "Why Choose DoIT Solution",
+    "whyChooseDoIT": "Почему стоит выбрать DoIT Solution",
     "savingTimeAndResources": {
-      "title": "Saving Time and Resources",
-      "description": "Outsourcing business processes to our organization allows you to focus on strategic tasks instead of operational routines."
+      "title": "Экономия времени и ресурсов",
+      "description": "Передача бизнес-процессов нашей организации на аутсорсинг позволит вам сосредоточиться на стратегических задачах, а не на операционной рутине."
     },
     "reducingPersonnelCosts": {
-      "title": "Reducing Personnel Costs",
+      "title": "Сокращение расходов на персонал",
       "description": "Eliminating the need to hire, train, and manage in-house employees significantly reduces your organization’s expenses."
     },
     "accessToHighlyQualifiedSpecialists": {
-      "title": "Access to Highly Qualified Specialists",
-      "description": "Our team provides experts with the necessary skills without the long search and selection process."
+      "title": "Доступ к высококвалифицированным специалистам",
+      "description": "Наша команда предоставляет экспертов с нужными компетенциями без долгого поиска и отбора."
     },
     "flexibilityAndScalability": {
-      "title": "Flexibility and Scalability",
-      "description": "Quickly expand your team with our specialists based on your current business needs."
+      "title": "Гибкость и масштабируемость",
+      "description": "Быстрое расширение вашей команды нашими специалистами в зависимости от текущих бизнес-задач."
     },
     "fastProjectLaunch": {
-      "title": "Fast Project Launch",
-      "description": "Minimizing the time required to find specialists and set up workflows enables rapid project initiation."
+      "title": "Быстрый запуск проектов",
+      "description": "Минимизация сроков поиска специалистов и организации рабочих процессов позволяет оперативно запускать проекты."
     },
     "reducedLegalAndTaxRisks": {
-      "title": "Reduced Legal and Tax Risks",
-      "description": "No need to officially employ staff, reducing the burden on your legal and accounting departments."
+      "title": "Сокращение юридических и налоговых рисков",
+      "description": "Отсутствие необходимости оформлять сотрудников в штат снижает нагрузку на юридический и бухгалтерский отделы."
     },
     "modernTechnologiesAndTools": {
-      "title": "Modern Technologies and Tools",
-      "description": "Access to cutting-edge technologies and industry best practices without the need for additional investment."
+      "title": "Современные технологии и инструменты",
+      "description": "Доступ к передовым технологиям и лучшим практикам рынка без необходимости инвестировать в их внедрение."
     },
     "increasedBusinessProcessEfficiency": {
-      "title": "Increased Business Process Efficiency",
-      "description": "Process optimization and the implementation of best practices enhance productivity and reduce costs."
+      "title": "Повышение эффективности бизнес-процессов",
+      "description": "Оптимизация процессов и внедрение лучших практик повышает продуктивность и снижает затраты."
     },
     "focusOnCoreBusiness": {
-      "title": "Focus on Core Business",
-      "description": "Your company can concentrate on its key competencies while delegating routine tasks to our specialists."
+      "title": "Фокус на основном бизнесе",
+      "description": "Компания может сосредоточиться на своих ключевых компетенциях, передав рутинные задачи нашим специалистам."
     },
     "qualityAssuranceAndResponsibility": {
-      "title": "Quality Assurance and Responsibility",
-      "description": "Our company takes full responsibility for the results, ensuring a high level of service quality."
+      "title": "Гарантия качества и ответственность",
+      "description": "Наша компания несет ответственность за результат работы, что повышает уровень качества предоставляемых услуг."
     }
   },
   "contact": {
